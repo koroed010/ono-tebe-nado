@@ -1,1 +1,36 @@
 /* место для вашего кода */
+
+.header {
+   display: grid;
+   grid-template-columns: 1fr 105px 1fr;
+   height: 105px;
+   width: 1052px;
+}
+
+.header__menu {
+    display: flex;
+    grid-column: 1;
+    align-items: center;
+    background-color: #fd24c7
+}
+
+.header__link-list-item_no-bullit {
+    text-decoration: none;
+}
+
+.header__link-list-item {
+    text-decoration:underline
+}
+
+.header__logo {
+    justify-content: center;
+    grid-column: 2;
+    height: 65px;
+}
+
+.header-address {
+    display: block;
+    grid-column: 3;
+    justify-content: right;
+    background-color: #24fdd2
+}
