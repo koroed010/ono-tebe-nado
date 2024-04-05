@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link 
       rel="stylesheet"
-      href="./fonts/fonts.css"
-    />
+      href="./fonts/fonts.css"/>
     <link
       rel="stylesheet"
-      href="./styles/global.css"
-      />
+      href="./styles/global.css"/>
     <link
       rel="stylesheet"
-      href="./styles/style.css"
-      />
+      href="./styles/style.css"/>
   </head>
   <body>
     <header class="header">
-      <nav class="header__menu">
+      <nav>
         <ul class="header__menu-list">
           <li class="header__menu-list-item-active">
-            <a href="" class="header__link_active header__link-list-item_no-bullit">главная</a>
+            <a href="#start-here" class="header__link_active">главная</a>
           </li>
-          <li class="header__menu-list-item">
-            <a href="#lots" class="header__link header__link-list-item">посмотреть лоты</a>
+          <li>
+            <a href="#lots">посмотреть лоты</a>
           </li>
-          <li class="header__menu-list-item">
-            <a href="#about" class="header__link header__link-list-item">об аукционе</a>
+          <li>
+            <a href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header__logo" >
+      <a class="header__logo" id="start-here">
           <img class="header__logo-image" src="images/logo-black.svg" 
-          alt="Логотип аукциона"
-          width=148px>
+          alt="Логотип аукциона">
       </a>
       <address class="address header-address">
-        <a class="address-tel" href="tel:+9999555555">+9 999 555 5555</a>
+        <a class="address-tel-email" href="tel:+9999555555">+9 999 555 5555</a>
         <br>
-        <a class="address-email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address-tel-email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>
           наб. Принсенграхт 263- <br>265, Амстердам
         </p>
       </address>
     </header>
     <main>
-      <container class="cover">
+      <section class="cover">
         <div class="overlay">
-          <container class="cover__title">
+          <div class="cover__title">
             <h1 class="title aligned-text">о<span class="letter-spacing-extended">но</span></h1>
             <h1 class="title aligned-text_center">те<span class="letter-spacing-extended">бе</span></h1>
             <h1 class="title aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></h1>
-          </container>
-          <container class="cover__description">
+          </div>
+          <div class="cover__description">
             <p class="cover__description-text">
               Аукцион вещей, в которые никто<span class="cover__description-text-space"> </span>не<span class="cover__description-text-space"> </span>верил
             </p>
-            <a class="bet-button" href=""a>Сделать ставку</a>
-          </container>
+            <a class="bet-button" href="">Сделать ставку</a>
+          </div>
         </div>
-      </container>
-      <container class="lots" id="lots">
+      </section>
+      <section class="lots" id="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item card_type_film">
-            <a class="card-link overlay" href=""a>
+            <a class="card-link overlay" href="">
               <article class="card">
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">
@@ -80,7 +76,7 @@
           </li>
 
           <li class="lots__card-list-item card_type_book">
-            <a class="card-link overlay" href=""a>
+            <a class="card-link overlay" href="">
               <article class="card">
                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card__text">
@@ -97,7 +93,7 @@
           </li>
 
           <li class="lots__card-list-item card_type_picture">
-            <a class="card-link overlay" href=""a>
+            <a class="card-link overlay" href="">
               <article class="card">
                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">
@@ -111,26 +107,24 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="#lots"a>посмотреть больше</a>
-      </container>
-      <container class="about" id="about">
+        <a class="lots__look-more-link" href="#lots">посмотреть больше</a>
+      </section>
+      <div class="about" id="about">
         <div class="about__logo">
           <img class="about__logo-image" src="images/logo-white.svg" 
           alt="Логотип аукциона"> 
         </div>
-        <container class="about__column">
+        <article class="about__column">
           <h2 class="about__title">Об аукционе</h2>
-          <article class="about__text">
+          <div class="about__text">
             <p>
               Здесь <span class="about-letter-spacing">вы не встретите очередное</span> пафосное собрание невероятно 
               дорогого антиквариата. Наши <span class="about-letter-spacing">лоты вообще не</span> должны были попасть <br>
               ни на один аукцион. Потому что кому <span class="about-letter-spacing">нужен дневник девочки-</span>
               подростка или картина, которую может <span class="about-letter-spacing">нарисовать даже ребёнок?</span> 
-              Кому нужны все эти <span class="about-letter-spacing">странные вещи, созданные любителями?</span> 
-            </p>
-            <p>
-              <br>
-            </p>
+              Кому нужны все эти <span class="about-letter-spacing">странные вещи, созданные любителями?</span>
+            </p> 
+            <br>
             <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие 
               своё время. В пух и прах растерзанные критиками. Непринятые и 
@@ -140,46 +134,46 @@
               верил никто, продолжали верить их <span class="about-letter-spacing">создатели. И</span> сейчас эти лоты 
               стали культовыми. 
             </p>
-          </article>
-        </container>
-      </container>
+          </div>
+        </article>
+      </div>
     </main>
     <footer class="footer">
       <address class="address footer-address">
-        <a class="address-tel" href="tel:+9999555555">+9 999 555 5555</a>
+        <a class="address-tel-email" href="tel:+9999555555">+9 999 555 5555</a>
         <br>
-        <a class="address-email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address-tel-email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>
           наб. Принсенграхт 263-<br>265, Амстердам
         </p>
       </address>
-      <nav class="footer__menu">
+      <nav>
         <ul class="footer__menu-list">
           <li class="header__menu-list-item-active">
-            <a href="" class="header__link_active header__link-list-item_no-bullit">главная</a>
+            <a href="#start-here" class="header__link_active">главная</a>
           </li>
-          <li class="header__menu-list-item">
-            <a href="#lots" class="header__link header__link-list-item">посмотреть лоты</a>
+          <li>
+            <a href="#lots">посмотреть лоты</a>
           </li>
-          <li class="header__menu-list-item">
-            <a href="#about" class="header__link header__link-list-item">об аукционе</a>
+          <li>
+            <a href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <container class="socials">
+      <div class="socials">
         <div class="socials__logo-border">
-          <img class="socials__youtube-image" src="images/yt.svg" 
+          <img class="socials__image" src="images/yt.svg" 
             alt="YouTube"> 
         </div>
         <div class="socials__logo-border">
-          <img class="socials__vk-image" src="images/vk.svg" 
+          <img class="socials__image" src="images/vk.svg" 
             alt="VK"> 
         </div>
         <div class="socials__logo-border">
-          <img class="socials__pinterest-image" src="images/pinterest.svg" 
+          <img class="socials__image" src="images/pinterest.svg" 
             alt="Pinterest"> 
         </div>
-      </container>
+      </div>
     </footer>
   </body>
 </html>
