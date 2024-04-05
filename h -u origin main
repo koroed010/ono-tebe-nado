@@ -1,0 +1,68 @@
+[33mcommit 0567b886d3205a3ec86542e850e668a475f1d8f9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 7cc5194 9d11609
+Author: koroed010 <koroed010@yandex.ru>
+Date:   Sat Apr 6 00:33:07 2024 +0300
+
+    Merge branch 'main' of github.com:koroed010/ono-tebe-nado
+
+[33mcommit 9d11609feff62a47e34fa932d1a7d864017b673a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: koroed010 <165330607+koroed010@users.noreply.github.com>
+Date:   Sat Apr 6 00:29:51 2024 +0300
+
+    Delete README.md
+
+[33mcommit 7cc51941761963ca6241134c427d48b4ea5ab23d[m
+Author: koroed010 <koroed010@yandex.ru>
+Date:   Sat Apr 6 00:28:43 2024 +0300
+
+    after check-list and validation2
+
+[33mcommit 93b7fb6f61d198901c890e998ec8c544a372d8c1[m
+Author: koroed010 <koroed010@yandex.ru>
+Date:   Sat Apr 6 00:24:23 2024 +0300
+
+    after check-list and validation2
+
+[33mcommit 106b20c12803ab5d030a5b20d6a116685d3a9800[m
+Author: koroed010 <165330607+koroed010@users.noreply.github.com>
+Date:   Sat Apr 6 00:21:39 2024 +0300
+
+    Delete ttt.txt
+    
+    it was a temporary file
+
+[33mcommit 1db43899a706ed0f0ad2ff02e394e25c1f2f52f7[m
+Author: koroed010 <165330607+koroed010@users.noreply.github.com>
+Date:   Sat Apr 6 00:14:40 2024 +0300
+
+    Create README.md
+
+[33mcommit e00cc89cb62e11787b95f932f5b2bd58a572efc9[m
+Author: koroed010 <koroed010@yandex.ru>
+Date:   Sat Apr 6 00:06:51 2024 +0300
+
+    after check-list and validation
+
+[33mcommit 445ff44bed779e2e2049f81b660fc74eadc5745a[m
+Author: koroed010 <koroed010@yandex.ru>
+Date:   Fri Apr 5 01:23:23 2024 +0300
+
+    before check-list
+
+[33mcommit f6ef1e85dc97a8b946a5264d67e30f722c2278f5[m
+Author: koroed010 <koroed010@yandex.ru>
+Date:   Sun Mar 31 20:22:17 2024 +0300
+
+    index container
+
+[33mcommit 18c1224d3ce0afd9d6e3e908a1e8c21451dc225b[m
+Author: koroed010 <koroed010@yandex.ru>
+Date:   Sat Mar 30 23:57:16 2024 +0300
+
+    1-st save
+
+[33mcommit 0e735ebed90c3077c805095207d85022d95c77fa[m
+Author: koroed010 <165330607+koroed010@users.noreply.github.com>
+Date:   Fri Mar 29 19:35:33 2024 +0300
+
+    Initial commit
